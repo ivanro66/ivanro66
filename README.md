@@ -1,16 +1,38 @@
-## Hi there 👋
+# Hola, soy Iván Alejandro Romero 👋
 
-<!--
-**ivanro66/ivanro66** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🎨 Diseñador Web & Desarrollador Frontend
 
-Here are some ideas to get you started:
+Apasionado por crear experiencias digitales hermosas y funcionales. Combino diseño y código para construir interfaces que los usuarios aman. Soy un entusiasta del desarrollo web con Python.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tecnologías y Herramientas
+
+**Diseño:**
+- Figma
+- Adobe XD
+- Photoshop
+- Illustrator
+
+**Desarrollo:**
+- HTML5
+- CSS3 / SASS
+- JavaScript
+- React
+- Git
+
+## 📂 Proyectos Destacados
+
+### [Nombre del Proyecto 1](https://github.com/tuusuario/proyecto1)
+Descripción breve del proyecto y qué tecnologías usaste.
+
+### [Nombre del Proyecto 2](https://github.com/tuusuario/proyecto2)
+Otra descripción interesante de tu trabajo.
+
+## 📫 Conectemos
+
+- 🌐 [Portfolio](https://
+- 💼 [LinkedIn]https://www.linkedin.com/in/ivan-alejandro-romero-hern%C3%A1ndez-884588166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- 📧 [Email]ivanrodeveloper@gmail.com
+
+---
+
+⭐ *"El diseño es donde la ciencia y el arte alcanzan el equilibrio" - Robin Mathew*
