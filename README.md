@@ -1,38 +1,31 @@
-# Hola, soy Iván Alejandro Romero 👋
+# 👋 Hola, soy Iván Alejandro Romero
 
-## 🎨 Diseñador Web & Desarrollador Frontend
+Soy desarrollador en formación con experiencia en Python, SQLite y desarrollo de interfaces gráficas con Tkinter. Actualmente estoy construyendo **CELITA**, un sistema de asistencia para la Fundación Regional El Niño Simón Apure.
 
-Apasionado por crear experiencias digitales hermosas y funcionales. Combino diseño y código para construir interfaces que los usuarios aman. Soy un entusiasta del desarrollo web con Python.
+Me estoy formando también en desarrollo web: HTML, CSS, JavaScript y WordPress. Me apasiona crear soluciones funcionales, intuitivas y confiables.
 
-## 🛠️ Tecnologías y Herramientas
+## 🛠️ Tecnologías que uso
 
-**Diseño:**
-- Figma
-- Adobe XD
-- Photoshop
-- Illustrator
+- **Lenguajes:** Python, JavaScript, HTML, CSS
+- **Frameworks/UI:** Tkinter, customtkinter, WordPress
+- **Bases de datos:** SQLite
+- **Herramientas:** Git, GitHub, VS Code
 
-**Desarrollo:**
-- HTML5
-- CSS3 / SASS
-- JavaScript
-- React
-- Git
+## 📌 Proyectos destacados
 
-## 📂 Proyectos Destacados
+### 🔹 [CELITA – Sistema de asistencia](https://github.com/ivanro66/celita)
+Sistema para registro y control de asistencia con interfaz gráfica, persistencia de datos y enfoque en usabilidad.
 
-### [Nombre del Proyecto 1](https://github.com/tuusuario/proyecto1)
-Descripción breve del proyecto y qué tecnologías usaste.
+### 🔹 [Mi portafolio web](enlace futuro)
+Sitio web personal desarrollado con HTML, CSS y JavaScript.
 
-### [Nombre del Proyecto 2](https://github.com/tuusuario/proyecto2)
-Otra descripción interesante de tu trabajo.
+## 📈 En progreso
 
-## 📫 Conectemos
+- Aprendiendo diseño web responsivo
+- Integrando WordPress con proyectos personalizados
+- Publicando más proyectos en GitHub
 
-- 🌐 [Portfolio](https://
-- 💼 [LinkedIn]https://www.linkedin.com/in/ivan-alejandro-romero-hern%C3%A1ndez-884588166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-- 📧 [Email]ivanrodeveloper@gmail.com
+## 📫 Contacto
 
----
-
-⭐ *"El diseño es donde la ciencia y el arte alcanzan el equilibrio" - Robin Mathew*
+- LinkedIn: [ivan-alejandro-romero-hernández](https://www.linkedin.com/in/ivan-alejandro-romero-hern%C3%A1ndez-884588166/)
+- Email: ivanrodeveloper@gmail.com
