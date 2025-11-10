@@ -27,7 +27,7 @@ Actualmente trabajando en el sistema de asistencia <strong>CELITA</strong> para 
   <img src="https://img.shields.io/badge/WordPress-000000?style=for-the-badge&logo=wordpress&logoColor=white"/>
 </p>
 
-#ç### 🧠 En mi memoria técnica:
+### 🧠 En mi memoria técnica:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/>
