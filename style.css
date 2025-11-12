@@ -33,6 +33,13 @@ body {
   color: #d35400;
 }
 
+.logo-principal {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  margin-right: 1rem;
+}
+
 .logo-celita {
   width: 100%;
   max-width: 180px;
