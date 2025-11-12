@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Tu Nombre] - Diseñador Web</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .projects {
-            margin: 30px 0;
-        }
-        .contact {
-            background: #f5f5f5;
-            padding: 20px;
-            border-radius: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iván Alejandro Romero | Portafolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="header">
-        <h1>Hola, soy Iván Alejandro Romero </h1>
-        <p>🎨 Diseñador Web & Desarrollador Frontend</p>
+  <header class="header">
+    <div class="branding">
+      <img src="logo.png" alt="Logo personal" />
+      <span class="nombre">Iván Alejandro Romero</span>
     </div>
+    <nav class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-    <div class="about">
-        <h2>Acerca de Mí</h2>
-        <p>Creo experiencias digitales hermosas y funcionales usando las mejores prácticas de diseño y desarrollo.</p>
-    </div>
+  <main>
+    <section id="inicio" class="contenido">
+      <h1>Diseñador Web & Desarrollador Frontend</h1>
+      <p class="frase">Experiencias digitales hermosas y funcionales</p>
+      <p class="descripcion">
+        Soy Iván Alejandro Romero, apasionado por el diseño web, la automatización y la estructura profesional. Aquí encontrarás mis proyectos más destacados, desarrollados con atención al detalle y enfoque funcional.
+      </p>
+    </section>
 
-    <div class="projects">
-        <h2>Mis Proyectos</h2>
-        <ul>
-            <li><a href="[link proyecto]">Proyecto 1</a> - Descripción breve</li>
-            <li><a href="[link proyecto]">Proyecto 2</a> - Descripción breve</li>
-        </ul>
-    </div>
+    <section id="proyectos" class="proyectos">
+      <h2>Mis Proyectos</h2>
+      <div class="tarjetas">
+        <a href="dulce-aroma/index.html" class="tarjeta">
+          <img src="dulce-aroma/assets/logo.png" alt="Dulce Aroma" />
+          <h3>Dulce Aroma</h3>
+          <p>Landing page para panadería artesanal con diseño visual y navegación optimizada.</p>
+        </a>
+        <a href="celita/index.html" class="tarjeta">
+          <img src="celita/assets/logo-celita.png" alt="CELITA" />
+          <h3>CELITA</h3>
+          <p>Sistema de asistencia para la Fundación El Niño Simón Apure, con enfoque funcional.</p>
+        </a>
+      </div>
+    </section>
 
-    <div class="contact">
-        <h2>Contacto</h2>
-        <p>Email: <a href="ivanrodeveloper@gmail.com"></a></p>
-        <p>GitHub: <a href="https://github.com/ivanro66"</a></p>
-    </div>
+    <section id="contacto" class="contenido">
+      <h2>Contacto</h2>
+      <p>Email: <a href="mailto:ivanrodeveloper@gmail.com">ivanrodeveloper@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/ivanro66" target="_blank">github.com/ivanro66</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="gracias">Gracias por visitar mi portafolio</p>
+    <p class="autor">Sitio desarrollado por Iván Alejandro Romero</p>
+  </footer>
+
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" class="boton-subir" title="Volver arriba">↑</button>
 </body>
 </html>
