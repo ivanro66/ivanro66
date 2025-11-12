@@ -1,19 +1,26 @@
-body {
+/* Reset básico */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdf6f0;
-  color: #333;
+  background-color: #121212;
+  color: #f5f5f5;
+  line-height: 1.6;
 }
 
 /* Header */
 .header {
-  background-color: #fff3e0;
+  background-color: #1e1e1e;
+  border-bottom: 2px solid #d4af37;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
 }
 
 .branding {
@@ -22,66 +29,56 @@ body {
   gap: 0.8rem;
 }
 
-.branding img {
+.logo-principal {
   width: 60px;
   height: 60px;
 }
 
 .nombre {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  color: #d35400;
+  color: #d4af37;
 }
 
-.logo-principal {
-  width: 100%;
-  max-width: 160px;
-  height: auto;
-  margin-right: 1rem;
-}
-
-.logo-celita {
-  width: 100%;
-  max-width: 180px;
-  height: auto;
-  margin: 0 auto 1rem;
-  display: block;
-}
 .menu {
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .menu a {
   text-decoration: none;
-  color: #333;
+  color: #f5f5f5;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 4px;
 }
 
 .menu a:hover {
-  color: #d35400;
+  color: #ffd700;
+  border-bottom: 2px solid #ffd700;
 }
 
 /* Secciones */
 section {
-  padding: 3rem;
+  padding: 3rem 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
 
 .frase {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-style: italic;
   margin-bottom: 1rem;
+  color: #d4af37;
 }
 
 .descripcion {
   font-size: 1rem;
-  line-height: 1.6;
   max-width: 700px;
   margin: 0 auto;
+  color: #ccc;
 }
 
 /* Tarjetas de proyectos */
@@ -94,19 +91,20 @@ section {
 }
 
 .tarjeta {
-  background-color: white;
+  background-color: #1e1e1e;
+  border: 1px solid #d4af37;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 12px rgba(212, 175, 55, 0.2);
   width: 280px;
   padding: 1rem;
   text-decoration: none;
-  color: #333;
+  color: #f5f5f5;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tarjeta:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
 }
 
 .tarjeta img {
@@ -118,15 +116,17 @@ section {
 
 /* Footer */
 .footer {
-  background-color: #fff3e0;
+  background-color: #1e1e1e;
   text-align: center;
   padding: 1.5rem;
-  border-top: 2px solid #d35400;
+  border-top: 2px solid #d4af37;
+  color: #aaa;
 }
 
 .gracias {
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color: #d4af37;
 }
 
 .autor {
@@ -138,20 +138,43 @@ section {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #d35400;
-  color: white;
+  background-color: #d4af37;
+  color: #121212;
   border: none;
   border-radius: 50%;
   width: 45px;
   height: 45px;
   font-size: 1.5rem;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(212, 175, 55, 0.5);
   transition: background-color 0.3s ease, transform 0.3s ease;
   z-index: 1000;
 }
 
 .boton-subir:hover {
-  background-color: #e67e22;
+  background-color: #ffd700;
   transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+    width: 90%;
+  }
 }
