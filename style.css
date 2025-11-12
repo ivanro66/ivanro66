@@ -33,6 +33,13 @@ body {
   color: #d35400;
 }
 
+.logo-celita {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
 .menu {
   display: flex;
   gap: 1.5rem;
