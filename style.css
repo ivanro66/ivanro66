@@ -154,6 +154,15 @@ section {
   z-index: 1000;
 }
 
+#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
 .boton-subir:hover {
   background-color: #e6c85f;
   transform: scale(1.1);
@@ -177,10 +186,6 @@ section {
     align-items: center;
   }
 
-  .tarjeta {
-    width: 90%;
-  }
-}
   .tarjeta {
     width: 90%;
   }
