@@ -97,7 +97,8 @@ section {
   border-left: 4px solid #d4af37;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  width: 280px;
+  width: 240px;
+  max-width: 90%;
   padding: 1rem;
   text-decoration: none;
   color: #111;
